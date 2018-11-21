@@ -1,7 +1,7 @@
 import urllib2
 
 url = "https://www.baidu.com/"
-
+# 简单爬虫
 print('method one')
 response1 = urllib2.urlopen(url)
 print(response1.getcode())
